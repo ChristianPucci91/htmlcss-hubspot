@@ -4,6 +4,7 @@
   padding: 0;
   margin:0;
   box-sizing: border-box;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .container {
@@ -33,15 +34,88 @@
   /* debug */
   height: 142px;
   margin:auto;
-  background: red;
+  /* background: red; */
   /* fine debug */
 }
 
 .toolbar.center {
 
   height: 70px;
-  background: green
+  /* background: green */
 }
+
+.left.clearfix , .right.clearfix {
+
+  float:left;
+  position: relative;
+  height: 100%;
+  width: 50%;
+
+}
+
+/* header > toolbar superiore */
+
+/* left side */
+
+.menutoolbar {
+
+  height: 100%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+#linkborder {
+    padding: 1px 25px 1px 0;
+    border-right: 1px solid black;
+}
+
+.menutoolbar a,.menutoolbar i {
+
+  text-decoration: none;
+  color:#32495b;
+  line-height: 70px;
+  cursor:pointer;
+}
+
+/* right side */
+
+.button {
+
+  line-height: 70px;
+  margin-left: 40px;
+  color:white;
+  float:right;
+}
+
+.button.colored  a {
+
+  text-decoration: none;
+  color:black;
+  line-height: 70px;
+  cursor:pointer;
+  border: 1px solid #ff7a59;
+  padding: 10px;
+  border-radius: .1875rem;
+
+}
+
+#freehub {
+  background: #ff7a59;
+  color:white;
+}
+
+#login {
+
+ background: white;
+ color:#ff7a59;
+}
+
+#searchcolor {
+
+  color:blue;
+}
+
 
 /* regole main */
 
