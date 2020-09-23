@@ -118,3 +118,33 @@
 #specialbox {
   margin:0 5%;
 }
+/* fine columns */
+
+/* inizio grid section */
+
+.gridsection {
+
+  /* debug */
+  height: 600px;
+  background: black;
+  opacity: 0.3;
+  /* fine debug */
+}
+
+.gridtext {
+
+  /* debug */
+  height: 200px;
+  background: pink;
+  opacity: 0.4;
+  /* fine debug */
+}
+
+.grid {
+
+  /* debug */
+  height: 400px;
+  background: yellow;
+  opacity: 0.4;
+  /* fine debug */
+}
