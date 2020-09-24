@@ -519,7 +519,7 @@ color:#ff7a59;
 
  position: absolute;
  top: 15px;
- font-size: 15px;
+ font-size: 20px;
  margin-bottom: 50px;
  color:white;
 }
@@ -532,7 +532,7 @@ color:#ff7a59;
 
 }
 
-.gridbox:nth-child(n+5){
+.gridbox:nth-child(1n+5){
 
 border-bottom: 0;
 
@@ -543,12 +543,6 @@ border-bottom: 0;
   border-right:0;
 
 }
-
-
-
-
-
-
 
 /* fine grid section */
 
