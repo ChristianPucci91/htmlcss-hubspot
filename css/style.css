@@ -7,11 +7,10 @@
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+
 .container {
 
-  /* debug */
-  margin:auto;
-  /* fine debug */
+ background-color: #f5f8fa;
 }
 
 .center {
@@ -213,24 +212,120 @@
 
 /* inizio columns section */
 
+/* logo */
+
 .cubelogo {
-  margin-top: 20px;
+
+  margin-top: 80px;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.cubelogo img {
+
+  width: 300px;
+}
+
+.cubelogo h1 {
+
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.cubelogo p {
+
+  line-height: 30px;
+  margin-bottom:30px;
 }
 
 /* hat section */
 
 .hat {
   margin-top: 50px;
+  background-color: white;
+  box-shadow:0 1px 4px rgba(173,216,230 , 0.2), 0 0 40px rgba(173,216,230 ,0.2)
+  inset;
   /* debug */
-  height: 300px;
-  background: yellow;
-  opacity: 0.2;
+  height: 400px;
   /* fine debug */
 
 }
 
+  /* left hat */
+.left-hat {
+
+  float:left;
+  height: 100%;
+  width: 33%;
+  text-align: center;
+}
+
+.left-hat img {
+
+  margin-left: 20px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  width: 170px;
+}
+
+.crm-button a  {
+
+  margin-left: 20px;
+  text-decoration: none;
+  color:white;
+  cursor:pointer;
+  border: 1px solid #ff7a59;
+  padding: 20px 40px 20px 40px;
+  border-radius: .1875rem;
+  background: #ff7a59;
+
+ }
+
+  /* right hat */
+.right-hat {
+  position: relative;
+  float:left;
+  height: 100%;
+  width: 67%;
+  margin-top: 30px;
+
+}
+
+.right-hat h3 {
+  display: inline-block;
+}
+
+.line {
+  float:right;
+  top:200px;
+  left: 250px;
+  position: absolute;
+  height: 1px;
+  width: 450px;
+  border-bottom: 2px solid black;
+}
+
+.right-hat h1,p,h3,span,i {
+
+  margin-top: 35px;
+
+}
+
+.right-hat p {
+
+  line-height: 30px;
+}
+
+.right-hat span {
+
+  margin-right: 20px;
+}
+
+.right-hat i {
+
+  color:#ff7a59;
+
+}
 /* columns */
 
 .columns {
