@@ -245,9 +245,8 @@
   background-color: white;
   box-shadow:0 1px 4px rgba(173,216,230 , 0.2), 0 0 40px rgba(173,216,230 ,0.2)
   inset;
-  /* debug */
-  height: 400px;
-  /* fine debug */
+  min-height: 400px;
+
 
 }
 
@@ -331,28 +330,94 @@
 
 .columns {
 
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
-  /* debug */
-  height: 400px;
-  background: green;
-  opacity: 1;
-  /* fine debug */
+
 }
 
 .boxes {
+
   float:left;
   width: 30%;
-    /* debug */
-  height:400px;
-  background: purple;
-  opacity: 0.5;
-  /* fine debug */
+  background: white;
+  box-shadow:0 1px 4px rgba(173,216,230 , 0.2), 0 0 40px rgba(173,216,230 ,0.3)
+  inset;
+
 }
 
 #specialbox {
-  margin:0 5%;
+
+  margin-left: 5%;
+  margin-right: 5%;
+
 }
+
+
+/* parte superiore columns  */
+
+.boxes-img  {
+
+height: 60%;
+text-align: center;
+margin:auto;
+
+}
+
+.boxes-img img{
+
+  max-width: 100px;
+  max-height: 100px;
+  min-height: 100px;
+  margin-top: 10px;
+
+}
+
+.boxes-img p, .boxes-img h1 {
+
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+/* parte inferiore columns */
+
+.boxes-item {
+
+  height: 40%;
+  margin:30px;
+  margin-bottom: 50px;
+  text-align: center;
+  border-top: 1px solid #32495b;
+}
+
+.boxes-item h3 {
+
+  margin-top: 30px;
+}
+
+.boxes-item-position {
+  margin-top: 50px;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.boxes-item-position i {
+
+color:#ff7a59;
+
+}
+.crm-button-boxes a  {
+
+  margin-top: 30px;
+  text-decoration: none;
+  color:white;
+  cursor:pointer;
+  border: 1px solid #ff7a59;
+  padding: 20px 40px 20px 40px;
+  border-radius: .1875rem;
+  background: #ff7a59;
+
+ }
+
 /* fine columns */
 
 /* inizio grid section */
