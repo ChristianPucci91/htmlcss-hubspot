@@ -52,6 +52,7 @@
 
 }
 
+
 /* header > toolbar superiore */
 
 /* left side */
@@ -199,11 +200,17 @@
  .jumboitem {
    position: relative;
    margin-bottom: 60px;
+
  }
 
  .jumboitem p {
 
    line-height: 30px;
+ }
+
+ .jumboitem h6 {
+
+   font-size: 13px;
  }
 
 /* fine jumbotron */
@@ -322,6 +329,7 @@
 
 .rhat i {
 
+  margin-left: 20px;
   color:#ff7a59;
 
 }
@@ -424,30 +432,123 @@ color:#ff7a59;
 
 .gridsection {
 
-  /* debug */
-  height: 600px;
-  background: black;
-  opacity: 0.3;
-  /* fine debug */
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  padding-bottom: 100px;
+  padding-top: 100px;
+
 }
+
+/* parte superiore grid */
 
 .gridtext {
 
-  /* debug */
-  height: 200px;
-  background: pink;
-  opacity: 0.4;
-  /* fine debug */
+  color:white;
+  text-align: center;
+
+}
+
+.gridtext p {
+
+  line-height: 40px;
+  margin:40px auto;
+  font-size: 14px;
+
 }
 
 .grid {
 
   /* debug */
-  height: 400px;
-  background: yellow;
-  opacity: 0.4;
+  min-height: 400px;
+  padding-bottom: 50px;
+
+  /* background: yellow;
+  opacity: 0.4; */
   /* fine debug */
 }
+
+/* parte inferiore grid */
+
+.gridbox {
+
+  float:left;
+  width: 25%;
+  height: 200px;
+  padding:30px;
+
+  /* debug */
+  /* background: red;
+  opacity: 0.5;
+  color:white; */
+  /* fine debug */
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.gridboxup  {
+
+  text-align: center;
+  width: 100%;
+  min-height: 50%;
+
+}
+
+.gridboxdown  {
+
+  position: relative;
+
+  text-align: center;
+  width: 100%;
+  min-height: 50%;
+
+}
+
+.gridboxup i {
+
+  width: 100%;
+  color:white;
+}
+
+.gridboxdown h1 {
+
+  display: inline-block;
+  font-size: 40px;
+  color:white;
+}
+
+.gridboxdown span {
+
+ position: absolute;
+ top: 15px;
+ font-size: 15px;
+ margin-bottom: 50px;
+ color:white;
+}
+
+.gridboxdown p {
+
+  font-size: 13px;
+  margin-top: 20px;
+  color:white;
+
+}
+
+.gridbox:nth-child(n+5){
+
+border-bottom: 0;
+
+}
+
+.gridbox:nth-child(4n+4){
+
+  border-right:0;
+
+}
+
+
+
+
+
+
 
 /* fine grid section */
 
