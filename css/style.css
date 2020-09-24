@@ -252,7 +252,7 @@
 }
 
   /* left hat */
-.left-hat {
+.lhat {
 
   float:left;
   height: 100%;
@@ -260,7 +260,7 @@
   text-align: center;
 }
 
-.left-hat img {
+.lhat img {
 
   margin-left: 20px;
   margin-top: 70px;
@@ -282,7 +282,7 @@
  }
 
   /* right hat */
-.right-hat {
+.rhat {
   position: relative;
   float:left;
   height: 100%;
@@ -291,7 +291,7 @@
 
 }
 
-.right-hat h3 {
+.rhat h3 {
   display: inline-block;
 }
 
@@ -305,27 +305,28 @@
   border-bottom: 2px solid black;
 }
 
-.right-hat h1,p,h3,span,i {
+.rhat  h1,.rhat p,.hat h3, .rhat span,.rhat i{
 
   margin-top: 35px;
 
 }
 
-.right-hat p {
+.rhat p {
 
   line-height: 30px;
 }
 
-.right-hat span {
+.rthat span {
 
   margin-right: 20px;
 }
 
-.right-hat i {
+.rhat i {
 
   color:#ff7a59;
 
 }
+
 /* columns */
 
 .columns {
