@@ -14,20 +14,25 @@ body {
 }
 
 footer {
+
   background: #2d3e50;
+
 }
 .nav {
+
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
   background: #f5f8fa;
+
 }
 
 .container {
 
  background-color: #f5f8fa;
+
 }
 
 .center {
@@ -47,18 +52,17 @@ footer {
 /* regole header */
 
 .nav {
-  /* debug */
+
   height: 142px;
   margin:auto;
   border-bottom: 1px solid #32495b;
-  /* background: red; */
-  /* fine debug */
+
 }
 
 .toolbar.center {
 
   height: 70px;
-  /* background: green */
+
 }
 
 .left.clearfix , .right.clearfix {
@@ -69,7 +73,6 @@ footer {
   width: 50%;
 
 }
-
 
 /* header > toolbar superiore */
 
@@ -85,6 +88,7 @@ footer {
 }
 
 #linkborder {
+
     padding: 1px 25px 1px 0;
     border-right: 1px solid black;
 }
@@ -95,16 +99,19 @@ footer {
   color:#32495b;
   line-height: 70px;
   cursor:pointer;
+
 }
 
 /* right side */
 
 .button {
+
   font-size: 13px;
   line-height: 70px;
   margin-left: 40px;
   color:white;
   float:right;
+
 }
 
 .button.colored  a {
@@ -120,19 +127,23 @@ footer {
 }
 
 #freehub {
+
   background: #ff7a59;
   color:white;
+
 }
 
 #login {
 
  background: white;
  color:#ff7a59;
+
 }
 
 #searchcolor {
 
   color:blue;
+
 }
 
 /* toolbar inferiore */
@@ -145,6 +156,7 @@ footer {
  left:0;
  top:50%;
  transform: translate( 0 , -50%);
+
 }
 
 /* right side */
@@ -161,6 +173,7 @@ footer {
 
   text-decoration: none;
   color: #32495b;
+
 }
 
 /* regole main */
@@ -172,7 +185,9 @@ footer {
 }
 
 #jumbosection {
+
   position: relative;
+
 }
 
 .jumbotext{
@@ -186,6 +201,7 @@ footer {
 }
 
 .textjumbo {
+
   margin-top: 150px;
   height: 100%;
   width: 60%;
@@ -200,7 +216,9 @@ footer {
 }
 
 .buttonjumbo {
+
   position:relative;
+
 }
 
 .textjumbo a  {
@@ -216,6 +234,7 @@ footer {
  }
 
  .jumboitem {
+
    position: relative;
    margin-bottom: 60px;
 
@@ -224,11 +243,13 @@ footer {
  .jumboitem p {
 
    line-height: 30px;
+
  }
 
  .jumboitem h6 {
 
    font-size: 13px;
+
  }
 
 /* fine jumbotron */
@@ -244,34 +265,38 @@ footer {
   margin-top: 80px;
   margin-bottom: 20px;
   text-align: center;
+
 }
 
 .cubelogo img {
 
   width: 300px;
+
 }
 
 .cubelogo h1 {
 
   font-size: 35px;
   margin-bottom: 30px;
+
 }
 
 .cubelogo p {
 
   line-height: 30px;
   margin-bottom:30px;
+
 }
 
 /* hat section */
 
 .hat {
+
   margin-top: 50px;
   background-color: white;
   box-shadow:0 1px 4px rgba(173,216,230 , 0.2), 0 0 40px rgba(173,216,230 ,0.2)
   inset;
   min-height: 400px;
-
 
 }
 
@@ -282,6 +307,7 @@ footer {
   height: 100%;
   width: 33%;
   text-align: center;
+
 }
 
 .lhat img {
@@ -290,6 +316,7 @@ footer {
   margin-top: 70px;
   margin-bottom: 40px;
   width: 170px;
+
 }
 
 .crm-button a  {
@@ -307,6 +334,7 @@ footer {
 
   /* right hat */
 .rhat {
+
   position: relative;
   float:left;
   height: 100%;
@@ -316,10 +344,13 @@ footer {
 }
 
 .rhat h3 {
+
   display: inline-block;
+
 }
 
 .line {
+
   float:right;
   top:200px;
   left: 250px;
@@ -327,6 +358,7 @@ footer {
   height: 1px;
   width: 450px;
   border-bottom: 2px solid black;
+
 }
 
 .rhat  h1,.rhat p,.hat h3, .rhat span,.rhat i{
@@ -338,11 +370,13 @@ footer {
 .rhat p {
 
   line-height: 30px;
+
 }
 
 .rthat span {
 
   margin-right: 20px;
+
 }
 
 .rhat i {
@@ -402,6 +436,7 @@ margin:auto;
 
   margin-top: 30px;
   line-height: 30px;
+
 }
 
 /* parte inferiore columns */
@@ -413,17 +448,21 @@ margin:auto;
   margin-bottom: 50px;
   text-align: center;
   border-top: 1px solid #32495b;
+
 }
 
 .boxes-item h3 {
 
   margin-top: 30px;
+
 }
 
 .boxes-item-position {
+
   margin-top: 50px;
   text-align: left;
   margin-bottom: 80px;
+
 }
 
 .boxes-item-position i {
@@ -431,6 +470,7 @@ margin:auto;
 color:#ff7a59;
 
 }
+
 .crm-button-boxes a  {
 
   margin-top: 30px;
@@ -475,13 +515,9 @@ color:#ff7a59;
 
 .grid {
 
-  /* debug */
   min-height: 400px;
   padding-bottom: 50px;
 
-  /* background: yellow;
-  opacity: 0.4; */
-  /* fine debug */
 }
 
 /* parte inferiore grid */
@@ -492,14 +528,9 @@ color:#ff7a59;
   width: 25%;
   height: 200px;
   padding:30px;
-
-  /* debug */
-  /* background: red;
-  opacity: 0.5;
-  color:white; */
-  /* fine debug */
   border-bottom: 1px solid white;
   border-right: 1px solid white;
+
 }
 
 .gridboxup  {
@@ -513,7 +544,6 @@ color:#ff7a59;
 .gridboxdown  {
 
   position: relative;
-
   text-align: center;
   width: 100%;
   min-height: 50%;
@@ -524,6 +554,7 @@ color:#ff7a59;
 
   width: 100%;
   color:white;
+
 }
 
 .gridboxdown h1 {
@@ -531,6 +562,7 @@ color:#ff7a59;
   display: inline-block;
   font-size: 40px;
   color:white;
+
 }
 
 .gridboxdown span {
@@ -540,6 +572,7 @@ color:#ff7a59;
  font-size: 20px;
  margin-bottom: 50px;
  color:white;
+
 }
 
 .gridboxdown p {
@@ -575,10 +608,8 @@ border-bottom: 0;
 
 .prefooterimg {
 
- /* debug */
  height:500px;
- /* background: black;
- opacity: 0.3; */
+
 }
 
 /* prefooterlogo left */
@@ -602,12 +633,12 @@ font-size: 60px;
 
 .prefooterlogo-left p {
 
-  /* text-align: center; */
   font-size: 15px;
   text-align: justify;
   margin-top: 20px;
   line-height: 30px;
   margin-left: 10px;
+
 }
 
 /* prefooterlogo right */
@@ -617,10 +648,7 @@ font-size: 60px;
   float:left;
   min-height: 200px;
   width: 60%;
-  /* debug */
-  /* background: blue;
-  opacity: 0.2; */
-  /* fine debug */
+
 }
 
 .prefootersponsor {
@@ -642,6 +670,7 @@ font-size: 60px;
   max-width: 100%;
   max-height: 100%;
   padding: 10px;
+
 }
 
 /* prefooterimg left */
@@ -649,6 +678,7 @@ font-size: 60px;
 .prefooterimg {
 
   position: relative;
+
 }
 
 .prefooterimg-text {
@@ -657,7 +687,6 @@ font-size: 60px;
   height: 100%;
   width: 50%;
   padding-left: 20px;
-
 
 }
 
@@ -672,11 +701,13 @@ margin-bottom: 50px;
 
   font-size: 35px;
   margin-top:30px;
+
 }
 
 .prefooterimg-item p {
 
   font-size:15px;
+
 }
 
 .prefooterimg-item a {
@@ -688,6 +719,7 @@ margin-bottom: 50px;
   padding:20px;
   border-radius: .1875rem;
   background: #ff7a59;
+
 }
 
 /* prefooterimg right */
@@ -710,6 +742,7 @@ margin-bottom: 50px;
   max-width: 90%;
   max-height: 90%;
   padding-bottom: 100px;
+
 }
 
 
@@ -718,37 +751,25 @@ margin-bottom: 50px;
 /* inizio footer */
 
 .creditbox {
+
   float:left;
   width: 20%;
   margin:2%;
-    /* debug */
   height:300px;
-  /* fine debug */
 
 }
 
 .credits {
  text-align: left;
  color:white;
-  /* debug */
   height:500px;
-  /* background:blue;
-  opacity: 0.5; */
-  /* fine debug */
 
-}
-
-.contacts {
-
-  /* debug */
-  /* height:400px; */
-
-  /* fine debug */
 }
 
 .creditbox ul {
 
   list-style: none;
+
 }
 
 .creditbox li  {
@@ -758,18 +779,20 @@ margin-bottom: 50px;
 }
 
 .creditbox strong {
+
   color:white;
+
 }
 
 .creditbox a {
 
   color:lightblue;
   text-decoration: none;
+
 }
 
-
-
 #contactbutton {
+
     text-decoration: none;
     color:#2d3e50;
     cursor: pointer;
@@ -778,6 +801,7 @@ margin-bottom: 50px;
     border-radius: .1875rem;
     background: lightgrey;
     font-size: 14px;
+
 }
 
 .social {
@@ -795,11 +819,10 @@ margin-bottom: 50px;
 }
 
 .icons a {
+
   color:white;
+
 }
-
-
-
 
 /* lenguages */
 
@@ -822,6 +845,7 @@ margin-bottom: 50px;
 
   margin-right: 20px;
   color:lightblue;
+
 }
 
 .lenguages-center a,.copyright-right a {
@@ -835,25 +859,24 @@ text-decoration: none;
 /* copyright left */
 
 .copyright-left {
+
   float:left;
   width: 50%;
   height: 100%;
-
   padding-top: 35px;
+
 }
 
 .copyright-left h3{
 
   color:white;
 
-
-
 }
-
 
 /* copyright right */
 
 .copyright-right {
+
   float:left;
   width: 50%;
   height: 100%;
@@ -869,8 +892,6 @@ font-size: 17px;
 color:lightblue;
 
 }
-
-
 
 .copyright {
 
