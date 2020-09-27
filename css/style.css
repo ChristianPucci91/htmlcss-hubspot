@@ -167,10 +167,22 @@ opacity: 0.5;
 
 }
 
+#freehub:hover {
+
+transition: 0.8s ease-in-out;
+
+}
+
 #login {
 
  background: white;
  color:#ff7a59;
+
+}
+
+#login:hover {
+
+  transition: 0.8s ease-in-out;
 
 }
 
@@ -351,6 +363,14 @@ color:white;
   box-shadow:0 1px 4px rgba(173,216,230 , 0.2), 0 0 40px rgba(173,216,230 ,0.2)
   inset;
   min-height: 400px;
+  transition: transform .5s;
+
+}
+
+.hat:hover {
+
+transform: scale(1.07);
+transition: transform .5s;
 
 }
 
@@ -459,7 +479,13 @@ color:white;
   min-width: 30%;
   padding: 20px;
   color:#2d3e50;
+  transition: transform .5s;
 
+}
+
+.boxes:hover {
+
+transform: scale(1.07);
 
 }
 
